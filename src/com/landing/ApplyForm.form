@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.landing.ApplyForm">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="19" width="1286" height="269"/>
+    </constraints>
+    <properties>
+      <background color="-3851"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="d5e29" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="400"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3851"/>
+          <font name="Bahnschrift" size="20" style="1"/>
+          <foreground color="-15003600"/>
+          <tabLayoutPolicy value="0"/>
+          <tabPlacement value="2"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="1bc35" binding="tbPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="HealthCare"/>
+            </constraints>
+            <properties>
+              <background color="-769"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="be566" class="javax.swing.JTextArea" binding="a1ComprehensiveCoverageIncludingTextArea" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-769"/>
+                  <columns value="2"/>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <font name="Century Gothic" size="20" style="0"/>
+                  <foreground color="-16777216"/>
+                  <lineWrap value="false"/>
+                  <rows value="0"/>
+                  <text value="1. Comprehensive coverage, including medical, dental,&#10; and vision services, attracting workers with a&#10; commitment to overall well-being.&#10;&#10;2.Affordable premiums and low out-of-pocket costs,&#10; reducing financial stress related to healthcare expenses.&#10;&#10;3. Wellness programs, such as fitness classes and&#10; mental health support, demonstrating a holistic approach to employee health."/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+              <component id="d0c37" class="javax.swing.JButton" binding="btnHealthCare">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3851"/>
+                  <font name="Century Gothic" size="20" style="0"/>
+                  <text value="Apply for HealthCare"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b9202" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Financial Well-being"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bca95" class="javax.swing.JButton" binding="btnApplyFinancial">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3851"/>
+                  <font name="Century Gothic" size="20" style="0"/>
+                  <text value="Apply for Financial Well-being program"/>
+                </properties>
+              </component>
+              <component id="8f296" class="javax.swing.JTextArea" binding="a1FinancialEducationProgramsTextArea" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-769"/>
+                  <editable value="false"/>
+                  <font name="Century Gothic" size="20" style="0"/>
+                  <foreground color="-15003600"/>
+                  <text value="1. Financial education programs for informed&#10; decision-making and future planning, appealing to workers seeking financial literacy.&#10;&#10;2. Employee Assistance Programs (EAPs) for counseling&#10; services, addressing financial stress and showcasing a commitment to employee well-being.&#10;&#10;3. Flexible savings options like 401(k) matching&#10;and stock options, providing opportunities for long-term financial security."/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="5308f" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Vocational Training Program"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e4af4" class="javax.swing.JTextArea" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-769"/>
+                  <editable value="false"/>
+                  <font name="Century Gothic" size="20" style="0"/>
+                  <foreground color="-15003600"/>
+                  <text value="1. Clear career advancement paths within the&#10; organization, making positions attractive to those seeking professional growth.&#10;&#10;2. Training focused on industry-relevant skills,&#10; ensuring candidates stay competitive in the evolving job market.&#10;&#10;3. Certifications and industry-recognized&#10; qualifications, enhancing employees' marketability and job appeal."/>
+                </properties>
+              </component>
+              <component id="61916" class="javax.swing.JButton" binding="btnApplyVocational">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3851"/>
+                  <font name="Century Gothic" size="20" style="0"/>
+                  <text value="Apply for Vocational Training program"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="8a5f0" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Skill Improvement Training Program"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="8eae9" class="javax.swing.JButton" binding="btnApplySkillImprovement">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3851"/>
+                  <font name="Century Gothic" size="20" style="0"/>
+                  <text value="Apply for Skill Improvement Training program"/>
+                </properties>
+              </component>
+              <component id="325d6" class="javax.swing.JTextArea" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-769"/>
+                  <editable value="false"/>
+                  <font name="Century Gothic" size="20" style="0"/>
+                  <foreground color="-15003600"/>
+                  <text value="1. Tailored professional development aligning with&#10; individual career goals and interests, enticing candidates with growth opportunities.&#10;&#10;2. Cutting-edge technology training keeping skills&#10; relevant and appealing to those wanting to stay at the forefront of their field.&#10;&#10;3. Mentorship programs fostering a supportive&#10; learning environment, making the job attractive for continuous skill development."/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

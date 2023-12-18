@@ -1,0 +1,188 @@
+--------------------------------------------------
+First Name: JOHN
+Last Name: DOE
+Phone Number: 01234567890
+Address: 123 Main Street
+NID Number: 987654321
+Safety Training: Yes
+Operational Training: No
+Technical Training: Yes
+Healthcare: No
+Financial Wellness: Yes
+Vocational Training: No
+Skill Improvement Training: Yes
+Employee Type: Part-time
+Gender: Male
+Status: Pending
+Reasoning: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+--------------------------------------------------
+
+--------------------------------------------------
+First Name: ROBERT
+Last Name: JOHNSON
+Phone Number: 01234567890
+Address: 789 Pine Road
+NID Number: 654321098
+Safety Training: Yes
+Operational Training: Yes
+Technical Training: No
+Healthcare: No
+Financial Wellness: Yes
+Vocational Training: Yes
+Skill Improvement Training: No
+Employee Type: Full-time
+Gender: Male
+Status: Pending
+Reasoning: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+--------------------------------------------------
+
+--------------------------------------------------
+
+--------------------------------------------------
+First Name: MICHAEL
+Last Name: BROWN
+Phone Number: 01234567890
+Address: 202 Maple Street
+NID Number: 543210987
+Safety Training: Yes
+Operational Training: No
+Technical Training: No
+Healthcare: No
+Financial Wellness: Yes
+Vocational Training: Yes
+Skill Improvement Training: Yes
+Employee Type: Full-time
+Gender: Male
+Status: Pending
+Reasoning: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+--------------------------------------------------
+
+--------------------------------------------------
+First Name: EMILY
+Last Name: DAVIS
+Phone Number: 09876543210
+Address: 303 Elm Avenue
+NID Number: 876543210
+Safety Training: Yes
+Operational Training: Yes
+Technical Training: Yes
+Healthcare: No
+Financial Wellness: Yes
+Vocational Training: No
+Skill Improvement Training: No
+Employee Type: Part-time
+Gender: Female
+Status: Pending
+Reasoning: Eiusmod tempor incididunt ut labore et dolore magna aliqua.
+--------------------------------------------------
+
+--------------------------------------------------
+First Name: WILLIAM
+Last Name: MILLER
+Phone Number: 01234567890
+Address: 404 Oak Street
+NID Number: 123456789
+Safety Training: Yes
+Operational Training: No
+Technical Training: Yes
+Healthcare: Yes
+Financial Wellness: Yes
+Vocational Training: No
+Skill Improvement Training: Yes
+Employee Type: Contract
+Gender: Male
+Status: Pending
+Reasoning: Nisi ut aliquip ex ea commodo consequat.
+--------------------------------------------------
+
+--------------------------------------------------
+First Name: OLIVIA
+Last Name: TAYLOR
+Phone Number: 01234567891
+Address: 505 Pine Road
+NID Number: 987654321
+Safety Training: No
+Operational Training: Yes
+Technical Training: No
+Healthcare: Yes
+Financial Wellness: Yes
+Vocational Training: Yes
+Skill Improvement Training: No
+Employee Type: Full-time
+Gender: Female
+Status: Pending
+Reasoning: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+--------------------------------------------------
+--------------------------------------------------
+First Name: JANE
+Last Name: SMITH
+Phone Number: 09876543210
+Address: 456 Oak Avenue
+NID Number: 123456789
+Safety Training: No
+Operational Training: Yes
+Technical Training: No
+Healthcare: Yes
+Financial Wellness: No
+Vocational Training: Yes
+Skill Improvement Training: No
+Employee Type: Contract
+Gender: Female
+Status: Approved
+Reasoning: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+--------------------------------------------------
+
+--------------------------------------------------
+First Name: SARAH
+Last Name: WILLIAMS
+Phone Number: 09876543210
+Address: 101 Cedar Lane
+NID Number: 210987654
+Safety Training: No
+Operational Training: Yes
+Technical Training: Yes
+Healthcare: Yes
+Financial Wellness: No
+Vocational Training: No
+Skill Improvement Training: Yes
+Employee Type: Part-time
+Gender: Female
+Status: Approved
+Reasoning: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+--------------------------------------------------
+--------------------------------------------------
+First Name: FORSEN
+Last Name: SEBASTIAN
+Phone Number: 01615949042
+Address: 442 baker street
+NID Number: 645466252
+Safety Training: Yes
+Operational Training: No
+Technical Training: No
+Healthcare: No
+Financial Wellness: No
+Vocational Training: No
+Skill Improvement Training: Yes
+Employee Type: Full-time
+Gender: Male
+Status: Approved
+Reasoning: myReason
+--------------------------------------------------
+--------------------------------------------------
+First Name: MARIA
+Last Name: ELIAZA
+Phone Number: 01234567891
+Address: 445 asd dadsa
+NID Number: 51651561
+Safety Training: No
+Operational Training: Yes
+Technical Training: No
+Healthcare: No
+Financial Wellness: No
+Vocational Training: No
+Skill Improvement Training: Yes
+Employee Type: Full-time
+Gender: Female
+Status: Pending
+Reasoning: reason
+--------------------------------------------------
