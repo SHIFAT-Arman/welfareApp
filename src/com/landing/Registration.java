@@ -43,10 +43,14 @@ public class Registration extends JFrame{
                     // Add data to table
                     employeeDataForm = new EmployeeDataForm();
 
+                    closeRegistrationWindow();
+                    Registration registration = new Registration();
+
                     JOptionPane.showMessageDialog(null, "Registration successful!", "Success", JOptionPane.INFORMATION_MESSAGE);
                 } else {
                     JOptionPane.showMessageDialog(null, "Please fill in all required fields as name suggests.", "Validation Error", JOptionPane.ERROR_MESSAGE);
                 }
+
             }
         });
 
@@ -69,12 +73,12 @@ public class Registration extends JFrame{
 
     private boolean validateFields() {
         // Validate text fields
-        if (isEmpty(tfFirstName) || !isAlpha(tfFirstName.getText()) || !isValidName(tfFirstName.getText())) {
+        if (isEmpty(tfFirstName) || !isAlpha(tfFirstName.getText())) {
             showErrorDialog("First Name should only contain alphabetic characters.");
             return false;
         }
 
-        if (isEmpty(tfLastName) || !isAlpha(tfLastName.getText()) || !isValidName(tfLastName.getText())) {
+        if (isEmpty(tfLastName) || !isAlpha(tfLastName.getText())) {
             showErrorDialog("Last Name should only contain alphabetic characters.");
             return false;
         }
@@ -147,9 +151,6 @@ public class Registration extends JFrame{
 
     private boolean isValidPhoneNumber(String phoneNumber) {
         return phoneNumber.matches("^01[0-9]{9}$");
-    }
-    private boolean isValidName(String name) {
-        return name.replaceAll("[^a-zA-Z]", "").length() >= 5;
     }
 
 
